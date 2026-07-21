@@ -3,6 +3,7 @@ import java.util.Arrays;
 public class QuickSort {
     public static void main(String[] args) {
         int[] arr={9,8,7,6,3,5,7,2,1};
+        System.out.println("before sorint : "+Arrays.toString(arr));
         qs(arr, 0, arr.length-1);
         System.out.println(Arrays.toString(arr));
     }
